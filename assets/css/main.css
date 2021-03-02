@@ -1,0 +1,71 @@
+/*Universal declaration*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Base*/
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+/*CSS Variables*/
+:root{
+    --header-height: 3rem;
+	--font-regular: 400;
+	--font-semi:700;
+	--font-bold:900;
+}
+/*Colors*/
+:root{
+    --firt-color: #fff;
+    --title-color: #282F41;
+    --button-color: #022A55;
+}
+/*font & typography*/
+:root{
+    --body-font: 'Ubuntu', sans-serif;
+    --big-font-size: 3rem;
+    --h1-font-size: 4rem;
+}
+
+h1{
+    margin: 0;
+}
+
+body{
+    font-family: var(--body-font);
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__img{
+	max-width: 250px;
+	height: auto;
+    margin-top: 2rem;
+}
+.main__title{
+    font-size: var(--big-font-size);
+    text-align: center;
+    color: var(--title-color);
+}
+.main__subtext{
+    color: var(--title-color);
+    text-align: center;
+    width: 50%;
+    height: 0 auto;
+    margin: auto;
+}
+.main__section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main__section--button{
+    background-color: var(--button-color);
+    color: var(--firt-color);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 300px;
+    border-radius: 10px;
+    margin: 15px;
+}
