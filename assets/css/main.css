@@ -54,6 +54,7 @@ body{
     width: 50%;
     height: 0 auto;
     margin: auto;
+    margin-top: 1rem;
 }
 .main__section{
     display: flex;
