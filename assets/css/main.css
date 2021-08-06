@@ -34,7 +34,6 @@ h1{
 body{
     font-family: var(--body-font);
 }
-/*Header*/
 .header{
     display: flex;
     justify-content: center;
